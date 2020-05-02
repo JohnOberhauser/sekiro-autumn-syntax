@@ -1,8 +1,8 @@
 
 // Config -----------------------------------
-// @syntax-hue:          216;
-// @syntax-saturation:   17.2%;
-// @syntax-lightness:   5.7%;
+//@syntax-hue-real:          216;
+@syntax-saturation-real:   17.2%;
+@syntax-lightness-real:   5.7%;
 @syntax-hue:          216;
 @syntax-saturation:   55%;
 @syntax-saturation-l:   37.9%;
@@ -31,7 +31,7 @@
 @syntax-fg:     @mono-1;
 //@syntax-fg:     hsl(@syntax-hue, @syntax-saturation, @syntax-lightness);
 // @syntax-bg:     hsv(@syntax-hue, @syntax-saturation, @syntax-value);
-@syntax-bg:     hsl(@syntax-hue, @syntax-saturation-l, @syntax-lightness);
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation-real, @syntax-lightness-real);
 @syntax-gutter: darken(@syntax-fg, 26%); // gutter text
 @syntax-guide:  fade(@syntax-fg, 15%);
 @syntax-accent: @hue-5-2;
